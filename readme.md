@@ -1,4 +1,4 @@
-...
+```
 netology@netology-VirtualBox:~/cicd/jenkins/ci-04-jenkins$ ansible-playbook -i inventory/cicd/hosts.yml site.yml
 
 PLAY [Preapre all hosts] **************************************************************************************************************************************************************
@@ -169,4 +169,4 @@ fatal: [jenkins-agent-01]: FAILED! => {"attempts": 10, "changed": false, "dest":
 PLAY RECAP ****************************************************************************************************************************************************************************
 jenkins-agent-01           : ok=16   changed=10   unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
 jenkins-master-01          : ok=10   changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0
-...
+```
